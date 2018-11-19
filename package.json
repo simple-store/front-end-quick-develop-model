@@ -1,0 +1,28 @@
+{
+  "name": "front-end-quick-develop-model",
+  "version": "1.0.0",
+  "description": "A quick FE-cli tool",
+  "bin": {
+    "scion": "bin/scion"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-store/front-end-quick-develop-model.git"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "author": "frank_wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simple-store/front-end-quick-develop-model/issues"
+  },
+  "homepage": "https://github.com/simple-store/front-end-quick-develop-model#readme"
+}

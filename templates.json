@@ -1,0 +1,8 @@
+{
+  "tpl": {
+    "vue-iview-template": {
+      "url": "https://github.com/simple-store/front-end-vue-temaplate.git",
+      "branch": "master"
+    }
+  }
+}
