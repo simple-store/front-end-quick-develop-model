@@ -28,7 +28,16 @@ module.exports = () => {
      if (err) console.log(err)
      console.log(chalk.green('New template added!\n'))
      console.log(chalk.grey('The last template list is: \n'))
-     console.log(config)
+     // 打印信息
+     const { tpl } = config;
+     const keys = Object.keys(tpl);
+     console.log('------------------------------------------------------------------------------');
+     console.log(`|     Name                   Branch     url                                  |`);
+     keys.forEach(key => {
+       const { url, branch } = tpl[key];
+       console.log(`|     ${key}     ${branch}     ${url.slice(url.lastIndexOf('/') + 1)}        |`);
+     })
+     console.log('------------------------------------------------------------------------------');
      console.log('\n')
      process.exit()
     })

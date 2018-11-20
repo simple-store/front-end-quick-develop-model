@@ -1,8 +1,1 @@
-{
-  "tpl": {
-    "vue-iview-template": {
-      "url": "https://github.com/simple-store/front-end-iview-template.git",
-      "branch": "master"
-    }
-  }
-}
+{"tpl":{"vue-iview-template":{"url":"https://github.com/simple-store/front-end-iview-template.git","branch":"master"},"vue-simple-template":{"url":"https://github.com/simple-store/front-end-vue-template.git","branch":"master"}}}
